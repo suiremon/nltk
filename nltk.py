@@ -19,7 +19,6 @@ def preprocess(df):
 
         filtered_industries=[]
         filtered_about = []
-        
 
     
         tokenize_industries = nlp(df['industries'][i])
